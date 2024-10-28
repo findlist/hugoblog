@@ -1,9 +1,13 @@
-baseurl = "http://www.example.com"
+baseURL = "http://localhost:1313/"
+languageCode = "zh-CN"
 title = "FindLsit"
 theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
+defaultcontentlanguage = "zh-CN"
 
+[languages]
+  [languages.zh-CN]
+    languageName = "中文"
+    weight = 1
 paginate = 20
 
 [services]
