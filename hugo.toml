@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://findlist.edgeone.app/"
 languageCode = "zh-CN"
 title = "FindList"
 theme = "hugo-coder"
