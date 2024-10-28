@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://findlist.edgeone.app/</loc>
     <lastmod>2024-10-28T16:55:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://findlist.edgeone.app/about/</loc>
     <lastmod>2024-10-28T16:55:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/electrical/</loc>
+    <loc>https://findlist.edgeone.app/posts/electrical/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://findlist.edgeone.app/tags/ai/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://findlist.edgeone.app/posts/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://findlist.edgeone.app/tags/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://findlist.edgeone.app/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%AE%B6%E7%94%B5/</loc>
+    <loc>https://findlist.edgeone.app/tags/%E5%AE%B6%E7%94%B5/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/articles01/</loc>
+    <loc>https://findlist.edgeone.app/posts/articles01/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%8F%8C%E5%8D%81%E4%B8%80/</loc>
+    <loc>https://findlist.edgeone.app/tags/%E5%8F%8C%E5%8D%81%E4%B8%80/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%A3%85%E4%BF%AE/</loc>
+    <loc>https://findlist.edgeone.app/tags/%E8%A3%85%E4%BF%AE/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://findlist.edgeone.app/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://findlist.edgeone.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://findlist.edgeone.app/series/</loc>
   </url>
 </urlset>
