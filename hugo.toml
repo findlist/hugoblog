@@ -3,7 +3,7 @@ languageCode = "zh-CN"
 title = "FindList"
 theme = "hugo-coder"
 defaultContentLanguage = "zh-CN"  # 注意大小写
-
+publishDir = "public"
 [languages]
   [languages.zh-cn]  # 使用小写的 "zh-cn"
     languageName = "中文"
