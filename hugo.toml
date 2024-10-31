@@ -1,6 +1,7 @@
-baseURL = "https://findlist.edgeone.app/"
+# baseURL = "http://localhost:1313/"
+baseURL = "https://niuzi.asia/"
 languageCode = "zh-CN"
-title = "FindList"
+title = "全球最大的牛子汇聚地"
 theme = "hugo-coder"
 defaultContentLanguage = "zh-CN"  # 注意大小写
 publishDir = "public"
@@ -27,7 +28,7 @@ publishDir = "public"
   avatarurl = "images/avatar.jpg"
   # gravatar = "john.doe@example.com"
 
-  faviconSVG = "/img/favicon.svg"
+  faviconSVG = "/images/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
   since = 2019
