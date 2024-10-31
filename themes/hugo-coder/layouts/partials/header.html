@@ -18,6 +18,11 @@
             </li>
           {{ end }}
         {{ end }}
+         <!-- RSS 订阅导航项 -->
+         <li class="navigation-item">
+          <a id="rss-link" class="navigation-link" href="{{ .Site.BaseURL }}/index.xml" target="_blank">RSS</a>
+          <button class="copy-button" onclick="copyRSS()">复制订阅</button>
+        </li>
         {{ if hugo.IsMultilingual }}
           {{ $node := . }}
           {{ .Scratch.Set "separator" true }}
@@ -39,3 +44,41 @@
     {{ end }}
   </section>
 </nav>
+<!-- 内联 CSS -->
+<style>
+  /* 使按钮与导航栏样式一致 */
+  .navigation-item .copy-button {
+    font-size: 14px;
+    background-color: transparent;
+    color: #333; /* 使用与导航链接一致的颜色 */
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* 鼠标悬停效果 */
+  .navigation-item .copy-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  /* 按钮点击效果 */
+  .navigation-item .copy-button:active {
+    transform: scale(0.95);
+  }
+</style>
+
+<!-- JavaScript 用于复制 RSS 链接 -->
+<script>
+  function copyRSS() {
+    const rssLink = document.getElementById('rss-link').href;
+    navigator.clipboard.writeText(rssLink).then(function() {
+      alert("RSS 订阅链接已复制！");
+    }).catch(function(error) {
+      console.error("复制失败:", error);
+    });
+  }
+</script>
