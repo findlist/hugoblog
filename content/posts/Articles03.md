@@ -10,4 +10,4 @@ categories = []
 externalLink = ""
 series = []
 +++
-This message is used to verify that this feed (feedId:74721795785815040) belongs to me (userId:72184340988134400). Join me in enjoying the next generation information browser https://follow.is.
+This message is used to verify that this feed (feedId:74730235828244480) belongs to me (userId:72184340988134400). Join me in enjoying the next generation information browser https://follow.is.
