@@ -1,5 +1,5 @@
 # baseURL = "http://localhost:1313/"
-baseURL = "https://findlist.edgeone.app/"
+baseURL = "https://niuzi.asia/"
 languageCode = "zh-CN"
 title = "全球最大的牛子汇聚地"
 theme = "hugo-coder"
