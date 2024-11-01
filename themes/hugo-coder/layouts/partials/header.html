@@ -20,8 +20,7 @@
         {{ end }}
          <!-- RSS 订阅导航项 -->
          <li class="navigation-item">
-          <a id="rss-link" class="navigation-link" href="{{ .Site.BaseURL }}/index.xml" target="_blank">RSS</a>
-          <button class="copy-button" onclick="copyRSS()">复制订阅</button>
+          <button class="copy-button" onclick="copyRSS()">复制RSS订阅</button>
         </li>
         {{ if hugo.IsMultilingual }}
           {{ $node := . }}
@@ -74,7 +73,7 @@
 <!-- JavaScript 用于复制 RSS 链接 -->
 <script>
   function copyRSS() {
-    const rssLink = document.getElementById('rss-link').href;
+    const rssLink = "{{ .Site.BaseURL }}/index.xml";
     navigator.clipboard.writeText(rssLink).then(function() {
       alert("RSS 订阅链接已复制！");
     }).catch(function(error) {
