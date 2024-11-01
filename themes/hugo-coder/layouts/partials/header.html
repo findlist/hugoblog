@@ -18,10 +18,7 @@
             </li>
           {{ end }}
         {{ end }}
-         <!-- RSS 订阅导航项 -->
-         <li class="navigation-item">
-          <button class="copy-button" onclick="copyRSS()">复制RSS订阅</button>
-        </li>
+         
         {{ if hugo.IsMultilingual }}
           {{ $node := . }}
           {{ .Scratch.Set "separator" true }}
