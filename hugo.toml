@@ -58,6 +58,13 @@ publishDir = "public"
   icon = "fa-brands fa-telegram fa-2x"
   weight = 2
   url = "https://t.me/FindList33"
+[[params.social]]
+  name = "RSS"
+  icon = "fa-solid fa-rss fa-2x"
+  weight = 2
+  url = "https://findlist.edgeone.app/index.xml"
+  tooltip = "订阅我们的RSS源！"
+
 
 # 菜单链接
 [[menu.main]]
