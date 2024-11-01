@@ -2,7 +2,7 @@
 baseURL = "https://niuzi.asia/"
 languageCode = "zh-CN"
 title = "全球最大的牛子汇聚地"
-theme = "coder"
+theme = "hugo-coder"
 defaultContentLanguage = "zh-CN"  # 注意大小写
 publishDir = "public"
 [languages]
