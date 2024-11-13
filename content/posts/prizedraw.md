@@ -9,6 +9,7 @@ tags = ["抽奖", "活动公告", "订阅达标"]
 categories = ["活动"]
 externalLink = ""
 series = ["订阅活动系列"]
+featuredImage="/images/prizedraw.png"
 +++
 
 # 🎉 抽奖活动公告 🎉
