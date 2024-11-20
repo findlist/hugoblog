@@ -27,7 +27,7 @@ publishDir = "public"
   keywords = "博客,开发者,个人"
   avatarurl = "images/avatar.jpg"
   # gravatar = "john.doe@example.com"
-
+  avatar = "/images/avatar.jpg"
   faviconSVG = "/images/favicon.ico"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
