@@ -1,5 +1,14 @@
 {{ partial "head/meta-tags.html" . }}
 
+<!-- 添加头像和 Open Graph 图片 -->
+<link rel="icon" href="{{ .Site.Params.avatar }}" type="image/jpeg">
+<meta property="og:image" content="{{ .Site.Params.avatar }}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="400">
+
+
+
 {{ if .Params.canonicalUrl }}
 <link rel="canonical" href="{{ .Params.canonicalUrl }}">
 {{ else }}
