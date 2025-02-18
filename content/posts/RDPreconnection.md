@@ -1,6 +1,6 @@
 +++
 draft = false
-date = 2024-11-07T11:49:27+08:00
+date = 2025-02-17T10:49:27+08:00
 title = "解决 Guacamole RDP 连接按键循环导致内存卡死的完整方案"
 description = "本方案提供了详细的步骤，帮助解决 Guacamole RDP 连接时出现按键循环问题，防止内存崩溃卡死。"
 slug = "解决-Guacamole-RDP-连接按键循环导致内存卡死的完整方案"
